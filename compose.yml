@@ -4,8 +4,8 @@ services:
     # build: .
     image: uwbfritz/pair:latest
     container_name: pair
-    ports:
-      - "80:80"
+    # ports:
+    #   - "80:80"
     networks:
       - pair-network
     labels:
