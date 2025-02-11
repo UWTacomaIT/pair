@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: node:20
+    runs-on: node-20
 
     steps:
     - uses: actions/checkout@v3
