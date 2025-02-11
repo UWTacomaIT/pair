@@ -1,0 +1,6 @@
+services:
+  app:
+    image: test:latest
+    build: .
+    ports:
+      - "80:80"

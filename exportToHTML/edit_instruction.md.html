@@ -1,0 +1,358 @@
+<html>
+<head>
+<title>edit_instruction.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #56a8f5;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+edit_instruction.md</font>
+</center></td></tr></table>
+<pre><span class="s0"># </span><span class="s2">Detailed Edit Instructions for Updating and Deployment</span>
+
+<span class="s2">Welcome to the guide for updating your website’s configuration and images, as well as instructions for compiling and deploying the project.  </span>
+
+<span class="s2">After completing these steps, your project will be transformed into a static HTML &amp; JavaScript bundle that you can effortlessly deploy anywhere—providing unparalleled flexibility and convenience.</span>
+
+<span class="s2">This document is designed for developers and content managers who need to update the JSON configuration </span><span class="s1">(</span><span class="s2">which controls text, links, and images</span><span class="s1">) </span><span class="s2">and replace faculty images in the `src/assets/view/` folder. Follow these step-by-step instructions to ensure a smooth update and deployment process.</span>
+
+<span class="s0">---</span>
+
+<span class="s0">## </span><span class="s2">1. Header Section</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`header.title`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Sample Lab Name supported by AIM-AHEAD Program for AI Readiness </span><span class="s1">(</span><span class="s2">PAIR</span><span class="s1">)&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace this header title with the new title.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">Cancer Health Disparities + AI/ML Lab supported by AIM-AHEAD Program for AI Readiness </span><span class="s1">(</span><span class="s2">PAIR</span><span class="s1">)&quot;</span><span class="s2">`</span>
+
+<span class="s0">---</span>
+
+<span class="s0">## </span><span class="s2">2. Hero Area Section</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`heroArea.title`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Sample Lab Name</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update this field with the new lab name.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">Cancer Health Disparities + AI/ML Lab</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`heroArea.subTitle`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">supported by AIM-AHEAD Program for AI Readiness </span><span class="s1">(</span><span class="s2">PAIR</span><span class="s1">)&quot;</span><span class="s2">`</span>
+
+<span class="s0">---</span>
+
+<span class="s0">## </span><span class="s2">3. Main Section</span>
+
+<span class="s0">### </span><span class="s2">3.1. Region One – Overview &amp; Highlights</span>
+
+<span class="s0">#### </span><span class="s2">Left Column </span><span class="s1">(</span><span class="s2">Introduction &amp; PI List</span><span class="s1">)</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.title`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">The Latest</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update if needed.</span>
+
+
+<span class="s0">- </span><span class="s2">Change the `PIavatar` here</span><span class="s1">:</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace image in `</span><span class="s1">&quot;</span><span class="s2">../../src/assets/view/PIavatar1.png</span><span class="s1">&quot;</span><span class="s2">`, `</span><span class="s1">&quot;</span><span class="s2">../../src/assets/view/PIavatar2.png</span><span class="s1">&quot;</span><span class="s2">` ... with the new image file.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Note</span><span class="s1">:** </span><span class="s2">The website uses PI images stored in `src/assets/view/` </span><span class="s1">(</span><span class="s2">e.g., `PIavatar1.png`, `PIavatar2.png`, `PIavatar3.png`, etc.</span><span class="s1">)</span><span class="s2">. Please update these files with the new images accordingly. png/jpg is allowed.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Note</span><span class="s1">:** </span><span class="s2">Only the first 3 PI allows to show at this area. 1, 2 or 3 is ok.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.left.PIList`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">A list of PI objects with names and titles.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update each PI object to reflect the current principal investigators.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:**</span>
+        <span class="s0">- </span><span class="s2">Change `</span><span class="s1">&quot;</span><span class="s2">FirstName1 LastName1, Ph.D.</span><span class="s1">&quot;</span><span class="s2">` to `</span><span class="s1">&quot;</span><span class="s2">Jane Doe, M.D., Ph.D.</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s2">Change `</span><span class="s1">&quot;</span><span class="s2">Professor</span><span class="s1">&quot;</span><span class="s2">` to `</span><span class="s1">&quot;</span><span class="s2">Distingushed Professor</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s2">Repeat for all PI entries.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.left.text`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Sample Lab Name supported by AIM-AHEAD Program for AI Readiness </span><span class="s1">(</span><span class="s2">PAIR</span><span class="s1">)&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace with an updated description of your lab.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">NEW LAB NAME is committed to advancing research in AI and healthcare innovation.</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.left.textSubsidiary`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">A long descriptive paragraph.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update with a detailed description of your lab’s mission, research focus, and unique strengths.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Provide a new paragraph detailing your lab.</span>
+
+<span class="s0">#### </span><span class="s2">Right Column </span><span class="s1">(</span><span class="s2">Statistics &amp; Links</span><span class="s1">)</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Group One</span><span class="s1">:**</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.one</span><span class="s1">[&quot;</span><span class="s2">text-1-1</span><span class="s1">&quot;]</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">10+</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update or Simply delete the number if the faculty count has changed.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;&quot;</span><span class="s2">`</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.one</span><span class="s1">[&quot;</span><span class="s2">text-1-2</span><span class="s1">&quot;]</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Faculty</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the label if necessary.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">Projects</span><span class="s1">&quot;</span><span class="s2">` </span><span class="s1">(</span><span class="s2">or leave unchanged</span><span class="s1">)</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.one</span><span class="s1">[&quot;</span><span class="s2">text-1-3</span><span class="s1">&quot;]</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">A diverse team of leading experts drives our academic excellence</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Revise the description as needed.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">An exceptional team dedicated to breakthrough research.</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Group Two</span><span class="s1">:**</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Group Three</span><span class="s1">:**</span>
+    <span class="s0">- </span><span class="s2">Same as the </span><span class="s1">**</span><span class="s2">Group One</span><span class="s1">**</span>
+  
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Button &amp; Link Controls</span><span class="s1">:**</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.showLinkedinBtn`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`true`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Set to `true` if you want to display the LinkedIn button; otherwise, set to `false`.</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.showXBtn`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`false`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Set to `true` if you want to display the X </span><span class="s1">(</span><span class="s2">formerly Twitter</span><span class="s1">) </span><span class="s2">button; otherwise, leave as `false`.</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.showMoreBtn`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`false`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Set to `true` if you want to display a “More” button; otherwise, leave as `false`.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Link Fields</span><span class="s1">:**</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.GoogleScholarLink`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://scholar.google.com/</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update with your lab’s Google Scholar profile URL.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s3">https://scholar.google.com/citations?user=YOUR_ID</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.LinkedinLink`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://www.linkedin.com/</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace with your organization’s LinkedIn page URL.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s3">https://www.linkedin.com/company/YOUR_COMPANY</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.XLink`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://x.com/</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update with your organization’s X/Twitter profile URL if applicable.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s3">https://twitter.com/YOUR_PROFILE</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionOne.right.moreBtnLink`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://www.google.com</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update this link to point to the page with more information.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s3">https://www.yourwebsite.com/more-info</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">---</span>
+
+<span class="s0">### </span><span class="s2">3.2. Region Two – News &amp; Research</span>
+
+<span class="s0">#### </span><span class="s2">Part 1 </span><span class="s1">(</span><span class="s2">News</span><span class="s1">):</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionTwo.part1.title`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">News</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update if needed.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Remain as `</span><span class="s1">&quot;</span><span class="s2">News</span><span class="s1">&quot;</span><span class="s2">` or change to `</span><span class="s1">&quot;</span><span class="s2">Latest News</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionTwo.part1.introducePrimary`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Latest News List</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the introductory text for the news section.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">Stay updated with our latest news and announcements.</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">#### </span><span class="s2">Part 2 </span><span class="s1">(</span><span class="s2">Research</span><span class="s1">):</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionTwo.part2.title`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Research</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update if needed.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">Our Research</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionTwo.part2.introducePrimary`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Research Projects and Publications</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the introductory text.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">Discover our groundbreaking projects and published work.</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">---</span>
+
+<span class="s0">### </span><span class="s2">3.3. Region Three – PAIR Program</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionThree.titlePrimary`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Program for AI Readiness</span><span class="s1">(</span><span class="s2">PAIR</span><span class="s1">)&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the title for the PAIR program section.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionThree.titleSecondary`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Learn more about PAIR and how you can get involved</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the subtitle to better invite users.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionThree.buttonText`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Learn More</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the call-to-action text if necessary.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionThree.joinNowLink`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://www.aim-ahead.net/call-for-proposals-year-2/pair/</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the URL to the current PAIR program page.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Notice</span><span class="s1">:** </span><span class="s2">Due to Maintenance, AIM-AHEAD devops teams removed the link temporarily.</span>
+<span class="s0">---</span>
+
+<span class="s0">### </span><span class="s2">3.4. Region Four – Contact Us</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.titlePrimary`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Contact Us</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update if needed.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.titleSecondary`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Get in Touch, Let’s Make an Impact Together</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the subtitle.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.buttonText`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Contact Us Now</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the button text.</span>
+
+<span class="s0">#### </span><span class="s2">Email Object </span><span class="s1">(</span><span class="s2">Within Region Four</span><span class="s1">)</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.email.address`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">test@test.edu</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace with the actual contact email address.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">contact@yourdomain.com</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.email.subject`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Sample Lab Name Webpage - Contact Request</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the subject line for emails generated from the contact form.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">NEW LAB NAME - Inquiry from Website</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Email Body Fields</span><span class="s1">:**</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.email.body.greeting`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Dear Dr. </span><span class="s1">[</span><span class="s2">PI Name</span><span class="s1">]</span><span class="s2">,</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the greeting if needed.</span>
+
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.email.body.content`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">I am interested in contacting you to learn more about your Sample Lab Name.</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the content of the email.</span>
+      
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`main.regionFour.email.body.closing`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Best regards,</span><span class="s1">&quot;</span><span class="s2">`</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the closing text if desired.</span>
+
+<span class="s0">---</span>
+
+<span class="s0">### </span><span class="s2">3.5. Event List</span>
+
+<span class="s2">For each event in `main.EventList`, update the following fields</span><span class="s1">:</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`col1`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Example</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Outstanding Faculty Award</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the event title.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`col2`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Example</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">December 30, 2024</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update with the correct event date.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`col3`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Example</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Dr. </span><span class="s1">[</span><span class="s2">PI Name</span><span class="s1">] </span><span class="s2">was awarded the Outstanding Faculty Award, This award is in recognition of her outstanding contributions to XXXXXXX.</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Revise the event description.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`colUrl`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Example</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">None</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">If an event link is available, update this field with the URL; otherwise, leave as `</span><span class="s1">&quot;</span><span class="s2">None</span><span class="s1">&quot;</span><span class="s2">`.</span>
+
+<span class="s0">---</span>
+
+<span class="s0">### </span><span class="s2">3.6. Faculty List - For Faculty subpage</span>
+
+
+<span class="s0">- </span><span class="s2">Change the `avatar` in Faculty subpage</span><span class="s1">:</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace image in `</span><span class="s1">&quot;</span><span class="s2">../../src/assets/view/avatar1.png</span><span class="s1">&quot;</span><span class="s2">`, `</span><span class="s1">&quot;</span><span class="s2">../../src/assets/view/avatar2.png</span><span class="s1">&quot;</span><span class="s2">` ... with the new image file.</span>
+        <span class="s0">- </span><span class="s1">**</span><span class="s2">Note</span><span class="s1">:** </span><span class="s2">The website uses faculty images stored in `src/assets/view/` </span><span class="s1">(</span><span class="s2">e.g., `avatar1.png`, `avatar2.png`, `avatar3.png`, etc.</span><span class="s1">)</span><span class="s2">. Please update these files with the new images accordingly. png/jpg is allowed.</span>
+
+<span class="s2">For each faculty entry in `main.FacultyList`, update the following</span><span class="s1">:</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`name`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Example</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">FirstName1 LastName1, Ph.D.</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the faculty member’s name.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`title`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Example</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">Professor</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the designation as needed.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`introduction`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">A descriptive paragraph about the faculty member’s background and achievements.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace or update with the latest biography information.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Fields</span><span class="s1">:** </span><span class="s2">`col4` and `col5`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">Typically empty strings.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Use these fields for any additional information if necessary, or leave them as empty strings.</span>
+
+<span class="s0">---</span>
+
+<span class="s0">### </span><span class="s2">3.7. Publications - For Publication subpage</span>
+
+<span class="s2">For each publication in `main.publications`, update the following</span><span class="s1">:</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`content`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">HTML-formatted content containing the title, authors, abstract, publication details, keywords, and DOI.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the HTML content with the new publication details.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Note</span><span class="s1">:** </span><span class="s2">Ensure that all HTML tags, classes, and inline styles are preserved or updated as needed.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Replace the title, author list, abstract, publication source, keywords, and DOI with the updated publication information.</span>
+
+<span class="s0">---</span>
+
+<span class="s0">## </span><span class="s2">4. Footer Section</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`footer.item1`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">AIM-AHEAD Program</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the text for the first footer item.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">Your New Program Name</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`footer.item1Link`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://www.aim-ahead.net/</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the URL.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s3">https://www.yourprogramsite.com</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`footer.item2`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">AI Readiness </span><span class="s1">(</span><span class="s2">PAIR</span><span class="s1">)&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update if necessary.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`footer.item2Link`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://www.aim-ahead.net/call-for-proposals-year-2/pair/</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the URL accordingly.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Notice</span><span class="s1">:** </span><span class="s2">Due to Maintenance, AIM-AHEAD devops teams removed the link temporarily.</span>
+
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`footer.item3`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">SAMPLE UNIVERSITY</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update with the correct institution or organization name.</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Example</span><span class="s1">:** </span><span class="s2">Change to `</span><span class="s1">&quot;</span><span class="s2">San Diego State University</span><span class="s1">&quot;</span><span class="s2">`</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`footer.item3Link`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s3">https://www.example.edu</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update to the institution’s website URL.</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Field</span><span class="s1">:** </span><span class="s2">`footer.copyright`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Current Value</span><span class="s1">:** </span><span class="s2">`</span><span class="s1">&quot;</span><span class="s2">AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.</span><span class="s1">: </span><span class="s2">1OT2OD032581-01</span><span class="s1">&quot;</span><span class="s2">`</span>
+    <span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Update the funding or copyright information if necessary.</span>
+
+<span class="s0">---</span>
+
+<span class="s0">## </span><span class="s2">5. Faculty Images Replacement</span>
+
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Location</span><span class="s1">:** </span><span class="s2">`src/assets/view/`</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Files</span><span class="s1">:** </span><span class="s2">`avatar1.png`, `avatar2.png`, `avatar3.png`, etc. `PIavatar1.png`, `PIavatar2.png`, `PIavatar3.png`</span>
+<span class="s0">- </span><span class="s1">**</span><span class="s2">Instruction</span><span class="s1">:** </span><span class="s2">Replace the existing faculty image files with the new images and keep the name</span>
+
+<span class="s0">---</span>
+
+<span class="s0">## </span><span class="s2">6. Instruction for Testing / Deploying</span><span class="s1">:</span>
+
+
+<span class="s2">This project requires Node.js. Please visit </span><span class="s1">[</span><span class="s2">Node.js Download</span><span class="s1">](</span><span class="s3">https://nodejs.org/en/download</span><span class="s1">) </span><span class="s2">to download and install it if you haven't already.</span>
+
+<span class="s2">After the project is compiled into static files, deploying is a breeze—simply upload the contents of the `dist` folder to your hosting service.</span>
+
+<span class="s0">#### </span><span class="s2">To run and preview the project locally</span><span class="s1">:</span>
+<span class="s0">1. </span><span class="s2">Run `npm install` to install all dependencies.</span>
+<span class="s0">2. </span><span class="s2">Run `npm run dev` to start the local development server. Usually, the page is localhost</span><span class="s1">:</span><span class="s2">5173</span>
+
+<span class="s0">#### </span><span class="s2">To compile the project into static files and deploy</span><span class="s1">:</span>
+<span class="s0">1. </span><span class="s2">Run `npm install` to install all dependencies.</span>
+<span class="s0">2. </span><span class="s2">Run `npm run build` to compile the project.</span>
+<span class="s0">3. </span><span class="s2">The output, located in the `dist` folder, can be deployed to any static hosting service.  </span>
+   <span class="s1">**</span><span class="s2">Note</span><span class="s1">:** </span><span class="s2">The `index.html` in the `dist` folder cannot be previewed locally.</span>
+
+<span class="s0">---</span>
+
+</pre>
+</body>
+</html>

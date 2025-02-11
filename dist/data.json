@@ -1,0 +1,145 @@
+{
+    "header": {
+        "title": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+        "main": {
+            "titlePrimary": "Sample Lab Name",
+            "titleSecondary": "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+        }
+    },
+    "main": {
+        "regionOne": {
+            "title": "The Latest",
+            "left": {
+                "PIList": [
+                        {
+                            "name": "FirstName1 LastName1, Ph.D.",
+                            "title": "Professor"
+                        },
+                        {
+                            "name": "FirstName2 LastName2, Ph.D., MPH",
+                            "title": "Associate Professor"
+                        },
+                        {
+                            "name": "FirstName3 LastName3, M.D., Ph.D.",
+                            "title": "Assistant Professor"
+                        }
+                    ],
+                "text": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+                "textSubsidiary": "Sample Lab Name, supported by the AIM-AHEAD Program for AI Readiness (PAIR), is at the forefront of integrating artificial intelligence into health research. Our lab focuses on developing AI-driven solutions that enhance diagnostic accuracy, optimize treatment protocols, and improve patient outcomes. Through PAIR, we leverage cutting-edge AI technologies and collaborate with industry leaders to prepare the next generation of researchers for the evolving demands of healthcare innovation."
+            },
+            "right": {
+                "one": {
+                    "text-1-1": "10+",
+                    "text-1-2": "Faculty",
+                    "text-1-3": "A diverse team of leading experts drives our academic excellence"
+                },
+                "two": {
+                    "text-2-1": "50+",
+                    "text-2-2": "Projects",
+                    "text-2-3": "Our projects foster interdisciplinary knowledge and offer opportunities for mutual learning"
+                },
+                "three": {
+                    "text-3-1": "100+",
+                    "text-3-2": "Partner Organizations",
+                    "text-3-3": "We collaborate with a vast array of partners across all states and union territories"
+                },
+                "showLinkedinBtn": true,
+                "showXBtn": false,
+                "showMoreBtn": false,
+                "GoogleScholarLink": "https://scholar.google.com/",
+                "LinkedinLink": "https://www.linkedin.com/",
+                "XLink": "https://x.com/",
+                "moreBtnLink":"https://www.google.com"
+            }
+        },
+        "regionTwo": {
+            "part1": {
+                "title": "News",
+                "introducePrimary": "Latest News List"
+            },
+            "part2": {
+                "title": "Research",
+                "introducePrimary": "Research Projects and Publications"
+            }
+        },
+        "regionThree": {
+            "titlePrimary": "Program for AI Readiness(PAIR)",
+            "titleSecondary": "Learn more about PAIR and how you can get involved",
+            "buttonText": "Learn More",
+            "joinNowLink": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/"
+        },
+        "regionFour": {
+            "titlePrimary": "Contact Us",
+            "titleSecondary": "Get in Touch, Let’s Make an Impact Together",
+            "buttonText": "Contact Us Now",
+            "email": {
+                "address": "test@test.edu",
+                "subject": "Sample Lab Name Webpage - Contact Request",
+                "body": {
+                    "greeting": "Dear Dr. [PI Name],",
+                    "content": "I am interested in contacting you to learn more about your Sample Lab Name.",
+                    "closing": "Best regards,"
+                }
+            }
+        },
+        "EventList": [
+            {
+                "col1": "Outstanding Faculty Award",
+                "col2": "December 30, 2024",
+                "col3": "Dr. [PI Name] was awarded the Outstanding Faculty Award, This award is in recognition of her outstanding contributions to XXXXXXX.",
+                "colUrl": "None"
+            },
+
+            {
+                "col1": "AIM-AHEAD Program for Artificial Intelligence Readiness (PAIR) Cohort 2 Experts & Coaches CFA",
+                "col2": "December 30, 2024",
+                "col3": "The AIM-AHEAD Program for Artificial Intelligence Readiness (PAIR) is recruiting Experts and Grant Writing Coaches for the second cohort of the AIM-AHEAD PAIR Program. This program will engage several teams of researchers from institutions facing challenges in developing research capacities to build an AI for Health Disparities Lab within their organization.",
+                "colUrl": "None"
+            }
+        ],
+
+        "FacultyList": [
+            {
+                "avatar": "../../src/assets/view/avatar1.png",
+                "name": "FirstName1 LastName1, Ph.D.",
+                "title": "Professor",
+                "introduction": "Dr. FirstName1 LastName1, Ph.D., is a Professor renowned for their pioneering research in computational biology. Their work leverages big data analytics to decode complex biological systems, contributing to advancements in genetic engineering and personalized medicine. Dr. LastName1’s laboratory is at the forefront of developing algorithms that predict molecular behavior, which are crucial for new drug development. As a respected leader in the field, Dr. LastName1 has published numerous influential papers and serves as a mentor to aspiring scientists in this rapidly evolving discipline.\n",
+                "col4": "",
+                "col5": ""
+            },
+            {
+                "avatar": "../../src/assets/view/avatar1.png",
+                "name": "FirstName2 LastName2, Ph.D., MPH",
+                "title": "Associate Professor",
+                "introduction": "Dr. FirstName2 LastName2, Ph.D., MPH, is an Associate Professor with a dual focus on public health and epidemiology. Dr. LastName2’s research integrates advanced statistical methodologies with public health practices to analyze and address the spread and control of infectious diseases. Their work has significantly contributed to improving disease surveillance and intervention strategies. Dr. LastName2 is also an active member of several professional health organizations and frequently collaborates on interdisciplinary projects that aim to enhance community health outcomes.\n",
+                "col4": "",
+                "col5": ""
+            },
+            {
+                "avatar": "../../src/assets/view/avatar1.png",
+                "name": "FirstName3 LastName3, M.D., Ph.D.",
+                "title": "Assistant Professor",
+                "introduction": "Dr. FirstName3 LastName3 is an Assistant Professor specializing in Artificial Intelligence and Healthcare. With a Ph.D. in Computer Science, Dr. LastName3’s research aims to enhance medical diagnostics and treatment through advanced AI algorithms. They have published extensively in this field and teach related courses focusing on AI applications and data ethics in healthcare.",
+                "col4": "",
+                "col5": ""
+            }
+        ],
+        "publications": [
+            {
+                "content": "<p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Enhancing Diagnostic Accuracy through Machine Learning: A Case Study in Predictive Oncology</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Dr. FirstName LastName, Dr. FirstName2 LastName2, Dr. FirstName3 LastName3</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Abstract:</strong></span>&nbsp;This study explores the application of machine learning algorithms in the field of oncology, focusing on the development of predictive models that improve the accuracy of cancer diagnostics. Utilizing a dataset comprising patient genetic profiles and historical treatment outcomes, we demonstrate how our model outperforms traditional diagnostic approaches by incorporating real-time data and adaptive learning techniques.</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Published in:</strong></span>&nbsp;Journal of AI in Healthcare, Volume 15, Issue 4, August 2025</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Keywords:</strong></span>&nbsp;Machine Learning, Oncology, Predictive Models, Diagnostic Accuracy</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>DOI:</strong></span>&nbsp;12.3456/jaihc.2025.78910</p><p><br/></p>"
+
+
+            }
+
+        ]
+    },
+    "footer": {
+        "item1": "AIM-AHEAD Program",
+        "item1Link": "https://www.aim-ahead.net/",
+        "item2": "AI Readiness (PAIR)",
+        "item2Link": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/",
+        "item3": "SAMPLE UNIVERSITY",
+        "item3Link": "https://www.example.edu",
+        "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
+    }
+}
