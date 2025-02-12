@@ -21,7 +21,7 @@
                         },
                         {
                             "name": "Ling-Hong Hung, Ph.D.",
-                            "title": "Research Scientist"
+                            "title": "Research Assistant Professor"
                         }
                 ],
                 "text": "RHAIL supported by AIM-AHEAD Program for AI Readiness (PAIR)",
@@ -84,6 +84,7 @@
         },
         "FacultyList": [
             {
+                "avatar": "../../src/assets/view/martine.png",
                 "name": "Martine De Cock, Ph.D.",
                 "title": "Professor",
                 "introduction": "Dr. Martine De Cock is a Professor at the Institute of Technology, University of Washington Tacoma, and a guest professor at Ghent University. She holds M.Sc. and Ph.D. degrees in Computer Science from Ghent University. Dr. De Cock has extensive experience in artificial intelligence, data mining, machine learning, and information retrieval, with over 150 peer-reviewed publications. She has served as a visiting scholar at the University of California, Berkeley, and Stanford University. Her current research focuses on secure machine learning, social networks, and data analytics to improve healthcare. She is an associate editor for IEEE Transactions on Fuzzy Systems and has co-organized the KDDCup2013.",
@@ -91,16 +92,18 @@
                 "col5": ""
             },
             {
+                "avatar": "../../src/assets/view/weichao.png",
                 "name": "Weichao Yuwen, Ph.D.",
                 "title": "Assistant Professor",
-                "introduction": "Dr. Weichao Yuwen is an Assistant Professor at the University of Washington. She conducts research in developing, testing, and disseminating technology-enabled health solutions for individuals with chronic conditions and their family caregivers. Dr. Yuwen is actively involved in the American Medical Informatics Association and the International Family Nursing Association and is a founding board member of the Pacific-Northwest Chinese Nurses Association. Her interdisciplinary research contributes to innovative digital health interventions that enhance patient care and support networks.",
+                "introduction": "Dr. Weichao Yuwen is an Assistant Professor at the University of Washington Tacoma. She conducts research in developing, testing, and disseminating technology-enabled health solutions for individuals with chronic conditions and their family caregivers. Dr. Yuwen is actively involved in the American Medical Informatics Association and the International Family Nursing Association and is a founding board member of the Pacific-Northwest Chinese Nurses Association. Her interdisciplinary research contributes to innovative digital health interventions that enhance patient care and support networks.",
                 "col4": "",
                 "col5": ""
             },
             {
+                "avatar": "../../src/assets/view/hung.png",
                 "name": "Ling-Hong Hung, Ph.D.",
-                "title": "Researcher",
-                "introduction": "Dr. Ling-Hong Hung is a researcher at the University of Washington with expertise in bioinformatics, big data, and machine learning. His research integrates computational methodologies to process and analyze large-scale biological data, contributing to advancements in genomics and biomedical informatics. Dr. Hung's work is instrumental in the development of efficient algorithms for data-driven insights in medical and biological sciences.",
+                "title": "Research Assistant Professor",
+                "introduction": "Dr. Ling-Hong Hung is a Research Assistant Professor at the University of Washington Tacoma with expertise in bioinformatics, big data, and machine learning. His research integrates computational methodologies to process and analyze large-scale biological data, contributing to advancements in genomics and biomedical informatics. Dr. Hung's work is instrumental in the development of efficient algorithms for data-driven insights in medical and biological sciences.",
                 "col4": "",
                 "col5": ""
             }
