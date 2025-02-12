@@ -1,10 +1,10 @@
 {
     "header": {
-        "title": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+        "title": "Responsible Health AI Lab"
     },
     "heroArea":{
-        "title": "Sample Lab Name",
-        "subTitle":"supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+        "title": "RHAIL",
+        "subTitle":"Responsible Health AI Lab"
     },
     "main": {
         "regionOne": {
@@ -12,42 +12,42 @@
             "left": {
                 "PIList": [
                         {
-                            "name": "FirstName1 LastName1, Ph.D.",
+                            "name": "Martine De Cock, Ph.D.",
                             "title": "Professor"
                         },
                         {
-                            "name": "FirstName2 LastName2, Ph.D., MPH",
+                            "name": "Weichao Yuwen, Ph.D., R.N.",
                             "title": "Associate Professor"
                         },
                         {
-                            "name": "FirstName2 LastName2, Ph.D., MPH",
-                            "title": "Associate Professor"
+                            "name": "Ling-Hong Hung, Ph.D.",
+                            "title": "Research Scientist"
                         }
                 ],
-                "text": "Sample Lab Name supported by AIM-AHEAD Program for AI Readiness (PAIR)",
-                "textSubsidiary": "Sample Lab Name, supported by the AIM-AHEAD Program for AI Readiness (PAIR), is at the forefront of integrating artificial intelligence into health research. Our lab focuses on developing AI-driven solutions that enhance diagnostic accuracy, optimize treatment protocols, and improve patient outcomes. Through PAIR, we leverage cutting-edge AI technologies and collaborate with industry leaders to prepare the next generation of researchers for the evolving demands of healthcare innovation."
+                "text": "RHAIL supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+                "textSubsidiary": "RHAIL, supported by the AIM-AHEAD Program for AI Readiness (PAIR), is at the forefront of integrating artificial intelligence into health research. Our lab focuses on developing AI-driven solutions that enhance diagnostic accuracy, optimize treatment protocols, and improve patient outcomes. Through PAIR, we leverage cutting-edge AI technologies and collaborate with industry leaders to prepare the next generation of researchers for the evolving demands of healthcare innovation."
             },
             "right": {
                 "one": {
                     "text-1-1": "10+",
-                    "text-1-2": "Faculty",
+                    "text-1-2": "Members",
                     "text-1-3": "A diverse team of leading experts drives our academic excellence"
                 },
                 "two": {
-                    "text-2-1": "50+",
+                    "text-2-1": "2+",
                     "text-2-2": "Projects",
-                    "text-2-3": "Our projects foster interdisciplinary knowledge and offer opportunities for mutual learning"
+                    "text-2-3": "Our projects foster interdisciplinary knowledge and offer opportunities for mutual learning in the field of Resonsible Health AI"
                 },
                 "three": {
-                    "text-3-1": "100+",
-                    "text-3-2": "Partner Organizations",
-                    "text-3-3": "We collaborate with a vast array of partners across all states and union territories"
+                    "text-3-1": "10+",
+                    "text-3-2": "Collaborators",
+                    "text-3-3": "We collaborate with a vast array of partners across many territories and fields"
                 },
                 "showLinkedinBtn": true,
                 "showXBtn": false,
                 "showMoreBtn": false,
-                "GoogleScholarLink": "https://scholar.google.com/",
-                "LinkedinLink": "https://www.linkedin.com/",
+                "GoogleScholarLink": "https://scholar.google.com/citations?user=UfCI-NcAAAAJ&hl=en",
+                "LinkedinLink": "https://www.linkedin.com/in/decockmartine",
                 "XLink": "https://x.com/",
                 "moreBtnLink":"https://www.google.com"
             }
@@ -64,7 +64,7 @@
         },
         "regionThree": {
             "titlePrimary": "Program for AI Readiness(PAIR)",
-            "titleSecondary": "Learn more about PAIR and how you can get involved",
+            "titleSecondary": "Our lab is sponsored by PAIR award administered by AIM-AHEAD (NIH). Learn more about PAIR and how you can get involved!",
             "buttonText": "Learn More",
             "joinNowLink": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/"
         },
@@ -73,59 +73,123 @@
             "titleSecondary": "Get in Touch, Let’s Make an Impact Together",
             "buttonText": "Contact Us Now",
             "email": {
-                "address": "test@test.edu",
-                "subject": "Sample Lab Name Webpage - Contact Request",
+                "address": "wyuwen@uw.edu",
+                "subject": "RHAIL Webpage - Contact Request",
                 "body": {
-                    "greeting": "Dear Dr. [PI Name],",
-                    "content": "I am interested in contacting you to learn more about your Sample Lab Name.",
+                    "greeting": "To whom it may concern,",
+                    "content": "I am interested in contacting you to learn more about your RHAIL.",
                     "closing": "Best regards,"
                 }
             }
         },
-        "EventList": [
-            {
-                "col1": "Outstanding Faculty Award",
-                "col2": "December 30, 2024",
-                "col3": "Dr. [PI Name] was awarded the Outstanding Faculty Award, This award is in recognition of her outstanding contributions to XXXXXXX.",
-                "colUrl": "None"
-            },
-
-            {
-                "col1": "AIM-AHEAD Program for Artificial Intelligence Readiness (PAIR) Cohort 2 Experts & Coaches CFA",
-                "col2": "December 30, 2024",
-                "col3": "The AIM-AHEAD Program for Artificial Intelligence Readiness (PAIR) is recruiting Experts and Grant Writing Coaches for the second cohort of the AIM-AHEAD PAIR Program. This program will engage several teams of researchers from institutions facing challenges in developing research capacities to build an AI for Health Disparities Lab within their organization.",
-                "colUrl": "None"
-            }
-        ],
-
         "FacultyList": [
             {
-                "name": "FirstName1 LastName1, Ph.D.",
+                "name": "Martine De Cock, Ph.D.",
                 "title": "Professor",
-                "introduction": "Dr. FirstName1 LastName1, Ph.D., is a Professor renowned for their pioneering research in computational biology. Their work leverages big data analytics to decode complex biological systems, contributing to advancements in genetic engineering and personalized medicine. Dr. LastName1’s laboratory is at the forefront of developing algorithms that predict molecular behavior, which are crucial for new drug development. As a respected leader in the field, Dr. LastName1 has published numerous influential papers and serves as a mentor to aspiring scientists in this rapidly evolving discipline.\n",
+                "introduction": "Dr. Martine De Cock is a Professor at the Institute of Technology, University of Washington Tacoma, and a guest professor at Ghent University. She holds M.Sc. and Ph.D. degrees in Computer Science from Ghent University. Dr. De Cock has extensive experience in artificial intelligence, data mining, machine learning, and information retrieval, with over 150 peer-reviewed publications. She has served as a visiting scholar at the University of California, Berkeley, and Stanford University. Her current research focuses on secure machine learning, social networks, and data analytics to improve healthcare. She is an associate editor for IEEE Transactions on Fuzzy Systems and has co-organized the KDDCup2013.",
                 "col4": "",
                 "col5": ""
             },
             {
-                "name": "FirstName2 LastName2, Ph.D., MPH",
-                "title": "Associate Professor",
-                "introduction": "Dr. FirstName2 LastName2, Ph.D., MPH, is an Associate Professor with a dual focus on public health and epidemiology. Dr. LastName2’s research integrates advanced statistical methodologies with public health practices to analyze and address the spread and control of infectious diseases. Their work has significantly contributed to improving disease surveillance and intervention strategies. Dr. LastName2 is also an active member of several professional health organizations and frequently collaborates on interdisciplinary projects that aim to enhance community health outcomes.\n",
-                "col4": "",
-                "col5": ""
-            },
-            {
-                "name": "FirstName3 LastName3, M.D., Ph.D.",
+                "name": "Weichao Yuwen, Ph.D.",
                 "title": "Assistant Professor",
-                "introduction": "Dr. FirstName3 LastName3 is an Assistant Professor specializing in Artificial Intelligence and Healthcare. With a Ph.D. in Computer Science, Dr. LastName3’s research aims to enhance medical diagnostics and treatment through advanced AI algorithms. They have published extensively in this field and teach related courses focusing on AI applications and data ethics in healthcare.",
+                "introduction": "Dr. Weichao Yuwen is an Assistant Professor at the University of Washington. She conducts research in developing, testing, and disseminating technology-enabled health solutions for individuals with chronic conditions and their family caregivers. Dr. Yuwen is actively involved in the American Medical Informatics Association and the International Family Nursing Association and is a founding board member of the Pacific-Northwest Chinese Nurses Association. Her interdisciplinary research contributes to innovative digital health interventions that enhance patient care and support networks.",
                 "col4": "",
                 "col5": ""
+            },
+            {
+                "name": "Ling-Hong Hung, Ph.D.",
+                "title": "Researcher",
+                "introduction": "Dr. Ling-Hong Hung is a researcher at the University of Washington with expertise in bioinformatics, big data, and machine learning. His research integrates computational methodologies to process and analyze large-scale biological data, contributing to advancements in genomics and biomedical informatics. Dr. Hung's work is instrumental in the development of efficient algorithms for data-driven insights in medical and biological sciences.",
+                "col4": "",
+                "col5": ""
+            }
+
+        ],
+        "EventList": [
+            {
+                "col1": "Presentation at AAAI 2025",
+                "col2": "2025",
+                "col3": "We will present our work on 'Transforming Tuberculosis Care: Optimizing Large Language Models for Enhanced Clinician-Patient Communication' at the AAAI 2025 workshop on Generative AI for Health.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "NIH AIM-AHEAD Research Fellowship",
+                "col2": "September 2024",
+                "col3": "Daniil Filienko has been awarded a NIH AIM-AHEAD Research Fellowship, Cohort 3.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "NIH AIM-AHEAD PAIR Phase 2 Award",
+                "col2": "September 2024",
+                "col3": "RHAIL is a NIH AIM-AHEAD PAIR Phase 2 awardee.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Pilot Funding from UW Institute of Translational Health Sciences",
+                "col2": "August 2024",
+                "col3": "Our project on using generative AI to assist cultural and linguistic adaptations of clinical trial materials has been awarded pilot funding by the UW Institute of Translational Health Sciences.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Accepted Paper at AMIA 2024 Annual Symposium",
+                "col2": "2024",
+                "col3": "Our paper on comparing prompting techniques to improve GPT-delivered Problem-Solving Therapy is accepted for presentation at the AMIA 2024 Annual Symposium.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Accepted Poster at MIE 2024",
+                "col2": "2024",
+                "col3": "Our poster on developing an AI-assisted platform to support tuberculosis care delivery is accepted for presentation at the 34th Medical Informatics Europe (MIE2024) conference.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Commencement Recognition",
+                "col2": "June 7, 2024",
+                "col3": "RHAIL alumna Caroline El Jazmi was recognized in the Commencement speech of UWT Chancellor Lange.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "UW Population Health Initiative Pilot Grant",
+                "col2": "May 20, 2024",
+                "col3": "RHAIL received a UW Population Health Initiative pilot research grant on 'Building and evaluating AI-augmented treatment support for individuals with tuberculosis' in collaboration with Biobehavioral Nursing and Health Informatics (UW Seattle).",
+                "colUrl": "None"
+            },
+            {
+                "col1": "UW Tacoma Founders Endowment Grant",
+                "col2": "May 10, 2024",
+                "col3": "RHAIL received a UW Tacoma Founders Endowment Grant for research on 'Privacy-Preserving Generative AI for Equitable Cancer Research'.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "Andrew and Julie Fry Innovation Award",
+                "col2": "April 25, 2024",
+                "col3": "Daniil Filienko and Caroline El Jazmi received the Andrew and Julie Fry Innovation Award at the School of Engineering and Technology for their work on the 'Caring for Caregivers Online' (COCO) project.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "AIM-AHEAD Traineeship Selection",
+                "col2": "January 2024",
+                "col3": "Steven Golob has been selected for an AIM-AHEAD Traineeship in Advanced Data Analysis using the All of Us Clinical Database.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "NIH AIM-AHEAD PAIR Cohort Selection",
+                "col2": "October 2023",
+                "col3": "The RHAIL lab has been selected for the first NIH supported AIM-AHEAD PAIR cohort.",
+                "colUrl": "None"
+            },
+            {
+                "col1": "UW Global Innovation Fund Award",
+                "col2": "December 2022",
+                "col3": "We received a UW Global Innovation Fund award in support of our research on 'Fair and Privacy-Preserving Machine Learning for Chronic Disease Symptom Management'.",
+                "colUrl": "None"
             }
         ],
         "publications": [
             {
-                "content": "<p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Enhancing Diagnostic Accuracy through Machine Learning: A Case Study in Predictive Oncology</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Dr. FirstName LastName, Dr. FirstName2 LastName2, Dr. FirstName3 LastName3</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Abstract:</strong></span>&nbsp;This study explores the application of machine learning algorithms in the field of oncology, focusing on the development of predictive models that improve the accuracy of cancer diagnostics. Utilizing a dataset comprising patient genetic profiles and historical treatment outcomes, we demonstrate how our model outperforms traditional diagnostic approaches by incorporating real-time data and adaptive learning techniques.</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Published in:</strong></span>&nbsp;Journal of AI in Healthcare, Volume 15, Issue 4, August 2025</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>Keywords:</strong></span>&nbsp;Machine Learning, Oncology, Predictive Models, Diagnostic Accuracy</p><p class=\"p2\" style=\"white-space: normal;\"><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: left;\"><span class=\"s1\"><strong>DOI:</strong></span>&nbsp;12.3456/jaihc.2025.78910</p><p><br/></p>"
+                "content": "<p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Transforming Tuberculosis Care: Optimizing Large Language Models for Enhanced Clinician-Patient Communication</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Presented at AAAI 2025 workshop on Generative AI for Health</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Comparing Prompting Techniques to Improve GPT-delivered Problem-Solving Therapy</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Accepted for presentation at AMIA 2024 Annual Symposium</p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\"><strong>Developing an AI-assisted Platform to Support Tuberculosis Care Delivery</strong></p><p><br/></p><p class=\"p1\" style=\"white-space: normal; text-align: center;\">Accepted for presentation at the 34th Medical Informatics Europe (MIE2024) conference</p><p><br/></p>"
             }
-
         ]
     },
     "footer": {
@@ -133,8 +197,8 @@
         "item1Link": "https://www.aim-ahead.net/",
         "item2": "AI Readiness (PAIR)",
         "item2Link": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/",
-        "item3": "SAMPLE UNIVERSITY",
-        "item3Link": "https://www.example.edu",
+        "item3": "University of Washington Tacoma",
+        "item3Link": "https://www.tacoma.uw.edu/",
         "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
     }
 }
