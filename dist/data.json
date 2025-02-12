@@ -1,10 +1,10 @@
 {
     "header": {
-        "title": "Responsible Health AI Lab"
-    },
-    "heroArea":{
-        "title": "RHAIL",
-        "subTitle":"Responsible Health AI Lab"
+        "title": "RHAIL supported by AIM-AHEAD Program for AI Readiness (PAIR)",
+        "main": {
+            "titlePrimary": "Responbile Health AI lab",
+            "titleSecondary": "supported by AIM-AHEAD Program for AI Readiness (PAIR)"
+        }
     },
     "main": {
         "regionOne": {
