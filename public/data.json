@@ -88,7 +88,7 @@
                 "avatar": "../src/assets/view/avatar1.jpg",
                 "name": "Martine De Cock, Ph.D.",
                 "title": "Professor",
-                "introduction": "Dr. Martine De Cock is a Professor at the School of Engineering and Technology, University of Washington Tacoma, and a guest professor at Ghent University. She holds M.Sc. and Ph.D. degrees in Computer Science from Ghent University. Dr. De Cock has extensive experience in artificial intelligence, data mining, machine learning, and information retrieval, with over 150 peer-reviewed publications. She has served as a visiting scholar at the University of California, Berkeley, and Stanford University. Her current research focuses on secure machine learning, social networks, and data analytics to improve healthcare. She is an associate editor for IEEE Transactions on Fuzzy Systems and has co-organized the KDDCup2013.",
+                "introduction": "Dr. Martine De Cock is a Professor at the School of Engineering and Technology, University of Washington Tacoma, and a guest professor at Ghent University. She holds M.Sc. and Ph.D. degrees in Computer Science from Ghent University. Dr. De Cock has extensive experience in artificial intelligence, data mining, machine learning, and information retrieval, with over 150 peer-reviewed publications. She has served as a visiting scholar at the University of California, Berkeley, and Stanford University. Her current research focuses on privacy-preserving AI and data analytics to improve healthcare.",
                 "col4": "",
                 "col5": ""
             },
@@ -215,6 +215,13 @@
                 "url": "https://arxiv.org/abs/2502.21236"
             },
             {
+                "title": "End to End Collaborative Synthetic Data Generation",
+                "venue": "AAAI-25 Workshop on Privacy-Preserving Artificial Intelligence",
+                "year": "2025",
+                "authors": "RHAIL Team",
+                "url": "https://arxiv.org/abs/2412.03766"
+            },
+            {
                 "title": "Comparing Prompting Techniques to Improve GPT-delivered Problem-Solving Therapy",
                 "venue": "AMIA 2024 Annual Symposium",
                 "year": "2024",
@@ -226,7 +233,7 @@
                 "venue": "34th Medical Informatics Europe (MIE2024) conference",
                 "year": "2024",
                 "authors": "RHAIL Team",
-                "url": "https://mie2024.org/"
+                "url": "https://pubmed.ncbi.nlm.nih.gov/39176923/"
             }
         ]
     },
