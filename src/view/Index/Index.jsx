@@ -182,7 +182,7 @@ function Index() {
                         src={bg2} alt="Background" />
                     <div className="w-11/12 relative z-20 text-center mx-auto">
                         <p style={{ fontFamily: 'quadon', fontWeight: 400 }}
-                            className="m-0 mt-10 lg:mt-52 text-6xl font-bold text-center">The Latest</p>
+                            className="m-0 mt-10 lg:mt-52 text-6xl font-bold text-center">The Team</p>
                         <div className='relative mt-8 lg:flex'>
                             <div
                                 className='lg:w-8/12 left-content text-left lg:border-r lg:pr-20 box-border border-r-white border-opacity-20'>
