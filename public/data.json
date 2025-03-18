@@ -111,10 +111,15 @@
 
         ],
         "EventList": [
-            {   "col1": "Mary Gates Scholarship for Undergraduate Research",
+            {   "col1": "RHAIL Student Receives Mary Gates Scholarship for Undergraduate Research",
                 "col2": "Spring 2025",
                 "col3": "Shane Menzies has been awarded a Mary Gates Scholarship to work on synthetic data generation for rare diseases",
                 "url": "https://expd.uw.edu/mge/apply/research/"
+            },
+            {   "col1": "RHAIL is Awarded an NSF NAIRR Demonstration Project Grant",
+                "col2": "2025",
+                "col3": "The goal of the new project, in collaboration with Sage Bionetworks, is to make biomedical data FAIR on the NAIRR",
+                "url": "https://nairrpilot.org/projects/demo/making-biomedical-data-fair-on-the-nairr"
             },
             {
                 "col1": "Presentation at AAAI 2025",
