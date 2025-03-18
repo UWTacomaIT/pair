@@ -39,9 +39,9 @@
                     "text-2-3": "<a href='https://www.tacoma.uw.edu/set' target='_blank' class='hover:underline'>School of Engineering and Technology</a><br/><a href='https://www.tacoma.uw.edu/nursing' target='_blank' class='hover:underline'>School of Nursing and Healthcare Leadership</a>"
                 },
                 "three": {
-                    "text-3-1": "2+",
-                    "text-3-2": "Research Thrusts",
-                    "text-3-3": "Use of Large Language Models to Expand Access to Care<br/> Synthetic Data Generation to Foster AI with Sensitive Patient Data"
+                    "text-3-1": "5+",
+                    "text-3-2": "Projects",
+                    "text-3-3": "Focusing on the use of Large Language Models to expand access to care and on synthetic data generation to foster AI with sensitive patient data"
                 },
                 "showGoogleScholarBtn": false,
                 "showLinkedinBtn": false,
