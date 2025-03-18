@@ -282,15 +282,16 @@ function Index() {
                                             fontFamily: 'Arnhem',
                                             fontWeight: 700,
                                             fontSize: '70px'
-                                        }}>
-                                            {data.main.regionOne.right.one['text-1-1']}
+                                        }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.one['text-1-1']}}>
                                         </p>
                                         <p className='my-3 font-bold text-2xl'
-                                            style={{ fontFamily: 'gentona', fontWeight: 700, fontSize: '30px' }}>
-                                            {data.main.regionOne.right.one['text-1-2']}
+                                            style={{ fontFamily: 'gentona', fontWeight: 700, fontSize: '30px' }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.one['text-1-2']}}>
+
                                         </p>
-                                        <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}>
-                                            {data.main.regionOne.right.one['text-1-3']}
+                                        <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.one['text-1-3']}}>
                                         </p>
                                     </div>
                                     <div className='mt-10 text-left right-content-line2'>
@@ -299,15 +300,15 @@ function Index() {
                                             fontFamily: 'Arnhem',
                                             fontWeight: 700,
                                             fontSize: '70px'
-                                        }}>
-                                            {data.main.regionOne.right.two['text-2-1']}
+                                        }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.two['text-2-1']}}>
                                         </p>
                                         <p className='my-3 font-bold text-2xl'
-                                            style={{ fontFamily: 'gentona', fontWeight: 700, fontSize: '30px' }}>
-                                            {data.main.regionOne.right.two['text-2-2']}
-                                        </p>
-                                        <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}>
-                                            {data.main.regionOne.right.two['text-2-3']}
+                                            style={{ fontFamily: 'gentona', fontWeight: 700, fontSize: '30px' }}
+                                                dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.two['text-2-2']}}>
+                                            </p>
+                                        <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.two['text-2-3'] }}>
                                         </p>
                                     </div>
                                     <div className='mt-10 text-left right-content-line3'>
@@ -316,15 +317,15 @@ function Index() {
                                             fontFamily: 'Arnhem',
                                             fontWeight: 700,
                                             fontSize: '70px'
-                                        }}>
-                                            {data.main.regionOne.right.three['text-3-1']}
-                                        </p>
+                                        }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.three['text-3-1']}}>
+                                            </p>
                                         <p className='my-3 font-bold text-2xl'
-                                            style={{ fontFamily: 'gentona', fontWeight: 700, fontSize: '30px' }}>
-                                            {data.main.regionOne.right.three['text-3-2']}
-                                        </p>
-                                        <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}>
-                                            {data.main.regionOne.right.three['text-3-3']}
+                                            style={{ fontFamily: 'gentona', fontWeight: 700, fontSize: '30px' }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.three['text-3-2']}}>
+                                            </p>
+                                        <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}
+                                            dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.three['text-3-3']}}>
                                         </p>
                                     </div>
                                 </div>
