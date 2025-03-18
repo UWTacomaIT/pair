@@ -152,10 +152,10 @@
                 "colUrl": "None"
             },
             {
-                "col1": "Accepted Paper at AMIA 2024 Annual Symposium",
+                "col1": "Paper on GPT-delivered Problem-Solving Therapy at AMIA 2024 Annual Symposium",
                 "col2": "2024",
                 "col3": "Our paper on comparing prompting techniques to improve GPT-delivered Problem-Solving Therapy is accepted for presentation at the AMIA 2024 Annual Symposium.",
-                "colUrl": "None"
+                "colUrl": "https://arxiv.org/pdf/2409.00112"
             },
             {
                 "col1": "Accepted Poster at MIE 2024",
