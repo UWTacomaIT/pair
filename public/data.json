@@ -113,19 +113,19 @@
         "EventList": [
             {   "col1": "RHAIL student receives Mary Gates Scholarship for Undergraduate Research",
                 "col2": "Spring 2025",
-                "col3": "Shane Menzies has been awarded a Mary Gates Scholarship to work on synthetic data generation for rare diseases",
+                "col3": "Shane Menzies has been awarded a Mary Gates Scholarship to work on synthetic data generation for rare diseases.",
                 "colUrl": "https://expd.uw.edu/mge/apply/research/"
             },
-            {   "col1": "RHAIL is awarded an NSF NAIRR Demonstration Project Grant",
-                "col2": "2025",
-                "col3": "The goal of the new project, in collaboration with Sage Bionetworks, is to make biomedical data FAIR on the NAIRR",
-                "colUrl": "https://nairrpilot.org/projects/demo/making-biomedical-data-fair-on-the-nairr"
-            },
             {
-                "col1": "Presentations at AAAI 2025",
+                "col1": "Presentation on Tuberculosis Project at AAAI 2025 Workshop",
                 "col2": "March 2025",
                 "col3": "We will present our work on 'Transforming Tuberculosis Care: Optimizing Large Language Models for Enhanced Clinician-Patient Communication' at the AAAI 2025 workshop on Generative AI for Health.",
                 "colUrl": "None"
+            },
+            {   "col1": "RHAIL is awarded an NSF NAIRR Demonstration Project Grant",
+                "col2": "2025",
+                "col3": "The project, in collaboration with Sage Bionetworks, revolves around synthetic data generation for rare diseases.",
+                "colUrl": "https://nairrpilot.org/projects/demo/making-biomedical-data-fair-on-the-nairr"
             },
             {
                 "col1": "NIH AIM-AHEAD Research Fellowship",
