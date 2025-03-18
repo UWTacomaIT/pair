@@ -114,7 +114,7 @@
             {   "col1": "Mary Gates Scholarship for Undergraduate Research",
                 "col2": "Spring 2025",
                 "col3": "Shane Menzies has been awarded a Mary Gates Scholarship to work on synthetic data generation for rare diseases",
-                "col4": "https://expd.uw.edu/mge/apply/research/"
+                "colUrl": "https://expd.uw.edu/mge/apply/research/"
             },
             {
                 "col1": "Presentation at AAAI 2025",
