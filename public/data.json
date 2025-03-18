@@ -122,6 +122,12 @@
                 "col3": "We presented our work on 'Transforming Tuberculosis Care: Optimizing Large Language Models for Enhanced Clinician-Patient Communication' at the AAAI 2025 workshop on Generative AI for Health.",
                 "colUrl": "https://arxiv.org/abs/2502.21236"
             },
+            {
+                "col1": "Presentation on Privacy-Preserving Synthetic Data Generation at AAAI 2025 Workshop",
+                "col2": "March 2025",
+                "col3": "We presented our work on 'End-to-End Collaborative Synthetic Data Generation' at the 6th Privacy-Preserving AI workshop at AAAI 2025", with a use case for privacy-preserving publishing of synthetic genomic data for leukemia.
+                "colUrl": "https://arxiv.org/abs/2412.03766"
+            },
             {   "col1": "RHAIL is awarded an NSF NAIRR Demonstration Project Grant",
                 "col2": "2025",
                 "col3": "The project, in collaboration with Sage Bionetworks, revolves around synthetic data generation for rare diseases.",
