@@ -119,7 +119,7 @@
             {   "col1": "RHAIL is awarded an NSF NAIRR Demonstration Project Grant",
                 "col2": "2025",
                 "col3": "The goal of the new project, in collaboration with Sage Bionetworks, is to make biomedical data FAIR on the NAIRR",
-                "url": "https://nairrpilot.org/projects/demo/making-biomedical-data-fair-on-the-nairr"
+                "colUrl": "https://nairrpilot.org/projects/demo/making-biomedical-data-fair-on-the-nairr"
             },
             {
                 "col1": "Presentations at AAAI 2025",
