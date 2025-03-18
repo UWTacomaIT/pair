@@ -177,11 +177,11 @@
 /* for background in the first page*/
 
 @keyframes fade {
-    0% { opacity: 1; }     /* Start visible */
-    40% { opacity: 1; }    /* Stay visible for 40% of the time */
-    50% { opacity: 0; }    /* Fade out over 10% of the time */
-    90% { opacity: 0; }    /* Stay invisible */
-    100% { opacity: 1; }   /* Start becoming visible again */
+    0% { opacity: 0; }
+    17% { opacity: 1; }
+    25% { opacity: 1; }
+    42% { opacity: 0; }
+    100% { opacity: 0; }
 }
 
 /* Set all slides to initially be invisible */
@@ -205,3 +205,8 @@
 .slide:nth-child(7) { animation-delay: 60s; }
 .slide:nth-child(8) { animation-delay: 70s; }
 .slide:nth-child(9) { animation-delay: 80s; }
+
+@import '../../assets/Fonts/Web/arnhem/arnhem.css';
+@import '../../assets/Fonts/Web/gentona/gentona.css';
+@import '../../assets/Fonts/Web/quadon/quadon.css';
+@import '../../assets/Fonts/Web/titling-gothic/titling-gothic.css';
