@@ -41,7 +41,7 @@
                 "three": {
                     "text-3-1": "2+",
                     "text-3-2": "Research Thrusts",
-                    "text-3-3": "• Use of Large Language Models to Expand Access to Care<br/>• Synthetic Data Generation to Foster AI with Sensitive Patient Data"
+                    "text-3-3": "Use of Large Language Models to Expand Access to Care<br/> Synthetic Data Generation to Foster AI with Sensitive Patient Data"
                 },
                 "showGoogleScholarBtn": false,
                 "showLinkedinBtn": false,
@@ -60,7 +60,7 @@
             },
             "part2": {
                 "title": "Research",
-                "introducePrimary": "Research Projects and Publications"
+                "introducePrimary": "Research Publications"
             }
         },
         "regionThree": {
@@ -74,11 +74,11 @@
             "titleSecondary": "Get in Touch, Let's Make an Impact Together",
             "buttonText": "Contact Us Now",
             "email": {
-                "address": "wyuwen@uw.edu",
+                "address": "rhail@uw.edu",
                 "subject": "RHAIL Webpage - Contact Request",
                 "body": {
                     "greeting": "To whom it may concern,",
-                    "content": "I am interested in contacting you to learn more about your RHAIL.",
+                    "content": "I am interested in contacting you to learn more about RHAIL.",
                     "closing": "Best regards,"
                 }
             }
@@ -88,7 +88,7 @@
                 "avatar": "../src/assets/view/avatar1.jpg",
                 "name": "Martine De Cock, Ph.D.",
                 "title": "Professor",
-                "introduction": "Dr. Martine De Cock is a Professor at the Institute of Technology, University of Washington Tacoma, and a guest professor at Ghent University. She holds M.Sc. and Ph.D. degrees in Computer Science from Ghent University. Dr. De Cock has extensive experience in artificial intelligence, data mining, machine learning, and information retrieval, with over 150 peer-reviewed publications. She has served as a visiting scholar at the University of California, Berkeley, and Stanford University. Her current research focuses on secure machine learning, social networks, and data analytics to improve healthcare. She is an associate editor for IEEE Transactions on Fuzzy Systems and has co-organized the KDDCup2013.",
+                "introduction": "Dr. Martine De Cock is a Professor at the School of Engineering and Technology, University of Washington Tacoma, and a guest professor at Ghent University. She holds M.Sc. and Ph.D. degrees in Computer Science from Ghent University. Dr. De Cock has extensive experience in artificial intelligence, data mining, machine learning, and information retrieval, with over 150 peer-reviewed publications. She has served as a visiting scholar at the University of California, Berkeley, and Stanford University. Her current research focuses on secure machine learning, social networks, and data analytics to improve healthcare. She is an associate editor for IEEE Transactions on Fuzzy Systems and has co-organized the KDDCup2013.",
                 "col4": "",
                 "col5": ""
             },
