@@ -8,7 +8,7 @@
     },
     "main": {
         "regionOne": {
-            "title": "The Latest",
+            "title": "The Team",
             "left": {
                 "PIList": [
                         {
@@ -25,23 +25,23 @@
                         }
                 ],
                 "text": "RHAIL supported by AIM-AHEAD Program for AI Readiness (PAIR)",
-                "textSubsidiary": "RHAIL, supported by the AIM-AHEAD Program for AI Readiness (PAIR), is at the forefront of integrating artificial intelligence into health research. Our lab focuses on developing AI-driven solutions that enhance diagnostic accuracy, optimize treatment protocols, and improve patient outcomes. Through PAIR, we leverage cutting-edge AI technologies and collaborate with industry leaders to prepare the next generation of researchers for the evolving demands of healthcare innovation."
+                "textSubsidiary": "The RHAIL lab at the University of Washington Tacoma is a collaborative effort between the School of Engineering and Technology and the School of Nursing and Healthcare Leadership. This interdisciplinary partnership is at the core of our mission. We believe that innovative applications of AI hold immense potential in addressing a wide range of challenges related to disease prevention, diagnosis and treatment, and self- and family management of chronic health conditions. Our primary goal is to pioneer responsible AI solutions that offer the same high-quality service to all patients and families while ensuring their privacy and equity."
             },
             "right": {
                 "one": {
-                    "text-1-1": "10+",
+                    "text-1-1": "7+",
                     "text-1-2": "Members",
-                    "text-1-3": "A diverse team of leading experts drives our academic excellence"
+                    "text-1-3": "A diverse team of leading experts drives our academic excellence."
                 },
                 "two": {
                     "text-2-1": "2+",
-                    "text-2-2": "Projects",
-                    "text-2-3": "Our projects foster interdisciplinary knowledge and offer opportunities for mutual learning in the field of Resonsible Health AI"
+                    "text-2-2": "Schools",
+                    "text-2-3": "Our lab fosters interdisciplinary knowledge and offers opportunities for mutual learning in the field of Resonsible Health AI."
                 },
                 "three": {
-                    "text-3-1": "10+",
-                    "text-3-2": "Collaborators",
-                    "text-3-3": "We collaborate with a vast array of partners across varied disciplines"
+                    "text-3-1": "2+",
+                    "text-3-2": "Research Thrusts",
+                    "text-3-3": "We collaborate with a vast array of partners across varied disciplines."
                 },
                 "showLinkedinBtn": true,
                 "showXBtn": false,
@@ -63,10 +63,10 @@
             }
         },
         "regionThree": {
-            "titlePrimary": "Program for AI Readiness(PAIR)",
-            "titleSecondary": "Our lab is sponsored by PAIR award administered by AIM-AHEAD (NIH). Learn more about PAIR and how you can get involved!",
+            "titlePrimary": "Program for AI Readiness (PAIR)",
+            "titleSecondary": "Our lab is sponsored by a PAIR award administered by AIM-AHEAD (NIH). Learn more about PAIR and how you can get involved!",
             "buttonText": "Learn More",
-            "joinNowLink": "https://www.aim-ahead.net/call-for-proposals-year-2/pair/"
+            "joinNowLink": "https://www.aim-ahead.net/program-for-artificial-intelligence-readiness/"
         },
         "regionFour": {
             "titlePrimary": "Contact Us",
