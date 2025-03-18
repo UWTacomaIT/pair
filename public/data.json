@@ -31,19 +31,20 @@
                 "one": {
                     "text-1-1": "7+",
                     "text-1-2": "Members",
-                    "text-1-3": "A diverse team of leading experts drives our academic excellence."
+                    "text-1-3": "<strong>Faculty:</strong><br/><a href='/faculty' class='hover:underline'>Dr. Martine De Cock</a>, mdecock@uw.edu<br/><a href='/faculty' class='hover:underline'>Dr. Weichao Yuwen</a>, wyuwen@uw.edu<br/><a href='/faculty' class='hover:underline'>Dr. Ling-Hong Hung</a>, lhhung@uw.edu<br/><strong>PhD Students:</strong><br/>Daniil Filienko, daniilf@uw.edu<br/>Steven Golob, golobs@uw.edu<br/>Sikha Pentyala, sikha@uw.edu<br/>Geetha Sitaraman, sgeetha@uw.edu"
                 },
                 "two": {
                     "text-2-1": "2+",
                     "text-2-2": "Schools",
-                    "text-2-3": "Our lab fosters interdisciplinary knowledge and offers opportunities for mutual learning in the field of Resonsible Health AI."
+                    "text-2-3": "<a href='https://www.tacoma.uw.edu/set' target='_blank' class='hover:underline'>School of Engineering and Technology</a><br/><a href='https://www.tacoma.uw.edu/nursing' target='_blank' class='hover:underline'>School of Nursing and Healthcare Leadership</a>"
                 },
                 "three": {
                     "text-3-1": "2+",
                     "text-3-2": "Research Thrusts",
-                    "text-3-3": "We collaborate with a vast array of partners across varied disciplines."
+                    "text-3-3": "• Use of Large Language Models to Expand Access to Care<br/>• Synthetic Data Generation to Foster AI with Sensitive Patient Data"
                 },
-                "showLinkedinBtn": true,
+                "showGoogleScholarBtn": false,
+                "showLinkedinBtn": false,
                 "showXBtn": false,
                 "showMoreBtn": false,
                 "GoogleScholarLink": "https://scholar.google.com/citations?user=UfCI-NcAAAAJ&hl=en",
@@ -70,7 +71,7 @@
         },
         "regionFour": {
             "titlePrimary": "Contact Us",
-            "titleSecondary": "Get in Touch, Let’s Make an Impact Together",
+            "titleSecondary": "Get in Touch, Let's Make an Impact Together",
             "buttonText": "Contact Us Now",
             "email": {
                 "address": "wyuwen@uw.edu",

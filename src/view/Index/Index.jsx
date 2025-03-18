@@ -331,10 +331,7 @@ function Index() {
 
                                 <div className='mt-4 border-t border-white pt-4 border-opacity-30 right-content-line4'>
                                     <div className='flex flex-wrap gap-2'>
-                                        {}
-
-
-
+                                        {data.main.regionOne.right.showGoogleScholarBtn && (
                                             <div
                                                 className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                                 onClick={_ => window.open(data.main.regionOne.right.GoogleScholarLink)}
@@ -344,61 +341,59 @@ function Index() {
                                                     fontWeight: 600,
                                                     fontSize: '18px'
                                                 }}>
-
                                                 <img src={googlescholar} alt="Google Scholar Icon"
-                                                     className="w-36 left-0 object-contain" />
-
+                                                    className="w-36 left-0 object-contain" />
                                                 <span className='ml-2 transition-all text-yellow-400'>→</span>
                                             </div>
+                                        )}
 
+                                        {data.main.regionOne.right.showXBtn && (
+                                            <div
+                                                className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
+                                                onClick={_ => window.open(data.main.regionOne.right.XLink)}
+                                                style={{
+                                                    color: "#4aa1d4",
+                                                    fontFamily: 'gentona',
+                                                    fontWeight: 600,
+                                                    fontSize: '18px'
+                                                }}>
+                                                <img src={socialmedia1textIcon2} alt="X Icon"
+                                                    className="w-4 left-0 object-contain" />
+                                                <p className={'ml-3'}>X(twitter)</p>
+                                                <span className='ml-2 transition-all text-yellow-400'>→</span>
+                                            </div>
+                                        )}
 
-                                        {data.main.regionOne.right.showLinkedinBtn &&(<div
-                                            className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
-                                            onClick={_ => window.open(data.main.regionOne.right.XLink)}
-                                            style={{
-                                                color: "#4aa1d4",
-                                                fontFamily: 'gentona',
-                                                fontWeight: 600,
-                                                fontSize: '18px'
-                                            }}>
-
-                                            <img src={socialmedia1textIcon2} alt="Google Scholar Icon"
-                                                className="w-4 left-0 object-contain" />
-
-                                            <p className={'ml-3'}>X(twitter)</p>
-
-                                            <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div>)}
-
-
-                                        {data.main.regionOne.right.showXBtn &&(<div
-                                            className='w-48 rounded-md  btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
-                                            onClick={_ => window.open(data.main.regionOne.right.LinkedinLink)}
-                                            style={{
-                                                color: "#4aa1d4",
-                                                fontFamily: 'gentona',
-                                                fontWeight: 600,
-                                                fontSize: '18px'
-                                            }}>
-
-                                            <img src={socialmedia1textIcon} alt="Google Scholar Icon"
-                                                className="w-4 left-0 object-contain" />
-
-                                            <p className={'ml-3'}>Linkedin</p>
-
-                                            <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div>)}
-                                        {data.main.regionOne.right.showMoreBtn && (<div
-                                            className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
-                                            onClick={_ => window.open(data.main.regionOne.right.moreBtnLink)}
-                                            style={{
-                                                color: "#4aa1d4",
-                                                fontFamily: 'gentona',
-                                                fontWeight: 600,
-                                                fontSize: '18px'
-                                            }}>
-                                            More About Us <span className='ml-2 transition-all text-yellow-400'>→</span>
-                                        </div> )}
+                                        {data.main.regionOne.right.showLinkedinBtn && (
+                                            <div
+                                                className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
+                                                onClick={_ => window.open(data.main.regionOne.right.LinkedinLink)}
+                                                style={{
+                                                    color: "#4aa1d4",
+                                                    fontFamily: 'gentona',
+                                                    fontWeight: 600,
+                                                    fontSize: '18px'
+                                                }}>
+                                                <img src={socialmedia1textIcon} alt="LinkedIn Icon"
+                                                    className="w-4 left-0 object-contain" />
+                                                <p className={'ml-3'}>Linkedin</p>
+                                                <span className='ml-2 transition-all text-yellow-400'>→</span>
+                                            </div>
+                                        )}
+                                        
+                                        {data.main.regionOne.right.showMoreBtn && (
+                                            <div
+                                                className='w-48 rounded-md btn bg-white p-4 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
+                                                onClick={_ => window.open(data.main.regionOne.right.moreBtnLink)}
+                                                style={{
+                                                    color: "#4aa1d4",
+                                                    fontFamily: 'gentona',
+                                                    fontWeight: 600,
+                                                    fontSize: '18px'
+                                                }}>
+                                                More About Us <span className='ml-2 transition-all text-yellow-400'>→</span>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
 
@@ -424,8 +419,8 @@ function Index() {
                         <div className='mt-12 lg:flex gap-x-10'>
                             <div className='w-full lg:w-6/12 bg-white'>
                                 <div className='relative'>
-                                    <div className='relative'>
-                                        <img className='w-full' src={icon1Bg} />
+                                    <div className='relative h-56 overflow-hidden'> {/* Add fixed height */}
+                                        <img className='w-full object-cover' src={icon1Bg} /> {/* Add object-cover */}
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
                                     <div onClick={_ => navigate('/news')}
@@ -433,15 +428,10 @@ function Index() {
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
                                             style={{ background: "#eac642" }}>
                                             <img className='w-full' src={media} />
-                                            {/* <div className="hidden lg:block absolute left-1/2 transform bg-yellow-400 z-30" style={{
-                                                width: "1px",
-                                                height: "8rem",
-                                                left: "3rem",
-                                                bottom: "-10rem"
-                                            }}></div> */}
                                         </div>
-                                        <p
-                                            className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>{data.main.regionTwo.part1.title}</p>
+                                        <p className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>
+                                            {data.main.regionTwo.part1.title}
+                                        </p>
                                     </div>
 
                                     <div className='text-left p-8'>
@@ -453,8 +443,8 @@ function Index() {
                             </div>
                             <div className='w-full lg:w-6/12 bg-white'>
                                 <div className='relative'>
-                                    <div className='relative'>
-                                        <img className='w-full' src={icon2Bg} />
+                                    <div className='relative h-56 overflow-hidden'> {/* Add fixed height */}
+                                        <img className='w-full object-cover' src={icon2Bg} /> {/* Add object-cover */}
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
                                     <div onClick={_ => navigate('/publications')}
@@ -462,21 +452,14 @@ function Index() {
                                         <div className='w-24 h-24 flex p-4 rounded-full overflow-hidden'
                                             style={{ background: "#eac642" }}>
                                             <img className='w-full' src={icon2} />
-                                            {/* <div className="hidden lg:block absolute left-1/2 transform bg-yellow-400 z-30" style={{
-                                                width: "1px",
-                                                height: "8rem",
-                                                left: "3rem",
-                                                bottom: "-10rem"
-                                            }}></div> */}
                                         </div>
-                                        <p
-                                            className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>{data.main.regionTwo.part2.title}</p>
+                                        <p className='ml-4 text-3xl border-b-4 hover:border-transparent text-white border-solid border-yellow-400 font-bold cursor-pointer'>
+                                            {data.main.regionTwo.part2.title}
+                                        </p>
                                     </div>
                                     <div className='text-left p-8'>
                                         <p>
-                                            {
-                                                data.main.regionTwo.part2.introducePrimary
-                                            }
+                                            {data.main.regionTwo.part2.introducePrimary}
                                         </p>
                                     </div>
                                 </div>
