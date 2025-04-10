@@ -25,7 +25,7 @@
                         }
                 ],
                 "text": "RHAIL supported by AIM-AHEAD Program for AI Readiness (PAIR)",
-                "textSubsidiary": "The RHAIL lab at the University of Washington Tacoma is a collaborative effort between the School of Engineering and Technology and the School of Nursing and Healthcare Leadership. This interdisciplinary partnership is at the core of our mission. We believe that innovative applications of AI hold immense potential in addressing a wide range of challenges related to disease prevention, diagnosis and treatment, and self- and family management of chronic health conditions. Our primary goal is to pioneer responsible AI solutions that offer the same high-quality service to all patients and families while ensuring their privacy and equity."
+                "textSubsidiary": "The RHAIL lab at the University of Washington Tacoma is a collaborative effort between the School of Engineering and Technology and the School of Nursing and Healthcare Leadership. This interdisciplinary partnership is at the core of our mission. We believe that innovative applications of AI hold immense potential in addressing a wide range of challenges related to disease prevention, diagnosis and treatment, and self- and family management of chronic health conditions. Our primary goal is to pioneer responsible AI solutions that offer the same high-quality service to all patients and families."
             },
             "right": {
                 "one": {
@@ -244,6 +244,6 @@
         "item2Link": "https://www.aim-ahead.net/program-for-artificial-intelligence-readiness/",
         "item3": "University of Washington Tacoma",
         "item3Link": "https://www.tacoma.uw.edu/",
-        "copyright": "AIM-AHEAD Coordinating Center is funded by NIH, Agreement No.: 1OT2OD032581-01"
+        "copyright": "This research was, in part, funded by the National Institutes of Health (NIH) Agreement NO. 1OT2OD032581"
     }
 }
