@@ -32,7 +32,7 @@ function Index() {
         <div className={`fixed top-0 z-40 w-full text-white bg-opacity-100 transition-all duration-500 ${is_scroll ? 'bg-blue-400' : ''}`}>
             <header className="p-2 lg:py-6 lg:px-20 flex box-border" onClick={handleLogoClick}>
                 <div className="w-28 lg:w-1/12 lg:mr-10 mr-6">
-                    <img src={logoaimahead} alt="AI Health Equity Logo" style={{ width: 'auto' }} />
+                    <img src={logoaimahead} alt="AI Health Logo" style={{ width: 'auto' }} />
                 </div>
                 <div className="w-10/12 flex gap-x-4 items-center">
                     <p className="font-gentona font-medium " dangerouslySetInnerHTML={{ __html: titleHTML }}>
@@ -69,7 +69,7 @@ export default Index;
 //         <div className="fixed top-0 z-40 w-full text-white bg-opacity-20 transition-all duration-500" style={{ background: is_scroll ? "#4aa1d4" : "" }}>
 //             <header className="p-2 lg:py-6 lg:px-20 flex box-border">
 //                 <div className="w-28 lg:w-1/12 lg:mr-10 mr-6">
-//                     <img src={logoaimahead} alt="AI Health Equity Logo" style={{ width: 'auto' }} />
+//                     <img src={logoaimahead} alt="AI Health Logo" style={{ width: 'auto' }} />
 //                 </div>
 //                 <div className="w-10/12 flex gap-x-4 items-center">
 //                     <p style={{fontFamily: 'gentona', fontWeight: 500}}
