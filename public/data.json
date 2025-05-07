@@ -111,8 +111,13 @@
 
         ],
         "EventList": [
+            {   "col1": "Two RHAIL students receive 2025 Population Health Recognition Award at the University of Washington",
+                "col2": "May 2025",
+                "col3": "Mahek Nizar and Mahriban Yalkapova are awarded for their work on the project “AI-Augmented Chatbot for Tuberculosis Treatment Support”. This project is a collaboration between RHAIL and Dr. Sarah Iribarren at the UW Seattle School of Nursing",
+                "colUrl": "https://www.washington.edu/populationhealth/2025/05/06/honorees-announced-for-2025-undergraduate-research-recognition-awards/"
+            },
             {   "col1": "Two RHAIL students honored among the 2025 Husky 100 at the University of Washington",
-                "col2": "Spring 2025",
+                "col2": "April 2025",
                 "col3": "Daniil Filienko and Geetha Sitaraman are included in the Husky 100 of 2025. The Husky 100 recognizes 100 students who are making the most out of their time at the UW.",
                 "colUrl": "https://www.washington.edu/husky100/"
             },
