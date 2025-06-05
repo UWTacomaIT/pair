@@ -217,6 +217,20 @@
             }
         ],
         "PublicationList": [
+             {
+                "title": "Comparison of Single Cell RNA Synthetic Data Generators: a CAMDA Health Challenge Analysis",
+                "venue": "33rd Conference on Intelligent Systems for Molecular Biology & 24th European Conference on Computational Biology (ISMB/ECCB)",
+                "year": "2025",
+                "authors": "RHAIL Team",
+                "url": "https://faculty.washington.edu/mdecock/papers/pmckeever2025a.pdf"
+            },
+             {
+                "title": "Synthetic Data Generation for bulk RNA-seq Data: a CAMDA Health Challenge Analysis ",
+                "venue": "33rd Conference on Intelligent Systems for Molecular Biology & 24th European Conference on Computational Biology (ISMB/ECCB)",
+                "year": "2025",
+                "authors": "RHAIL Team",
+                "url": "https://faculty.washington.edu/mdecock/papers/smenzies2025a.pdf"
+            },
             {
                 "title": "Transforming Tuberculosis Care: Optimizing Large Language Models for Enhanced Clinician-Patient Communication",
                 "venue": "AAAI 2025 workshop on Generative AI for Health",
