@@ -111,6 +111,11 @@
 
         ],
         "EventList": [
+            {   "col1": "Winning solutions in the CAMDA Health Privacy Challenge",
+                "col2": "July 2025",
+                "col3": "See you at the CAMDA track at ISMB/ECCB25 to discuss our winning solutions in the CAMDA Health Privacy Challenge on generation of synthetic bulk RNA-seq and single cell RNA-seq data.",
+                "colUrl": "https://bipress.boku.ac.at/camda2025/the-camda-contest-challenges/"
+            },
             {   "col1": "Two RHAIL students receive 2025 Population Health Recognition Award at the University of Washington",
                 "col2": "May 2025",
                 "col3": "Mahek Nizar and Mahriban Yalkapova are awarded for their work on the project “AI-Augmented Chatbot for Tuberculosis Treatment Support”. This project is a collaboration between RHAIL and Dr. Sarah Iribarren at the UW Seattle School of Nursing",
