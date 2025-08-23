@@ -111,6 +111,12 @@
 
         ],
         "EventList": [
+            {
+                "col1": "RHAIL Featured in NIH Data Science Director's Spotlight",
+                "col2": "August 2025",
+                "col3": "The Responsible Health AI Lab is highlighted in the AMIA Newsletter and NIH Data Science Director's spotlight on 'Highlighting AIM-AHEAD's Innovations in AI/ML for Biomedical Research' for our work.",
+                "colUrl": "https://datascience.nih.gov/director/highlighting-AIM-AHEADs-innovations-in-AI-ML-for-biomedical-research"
+            },
             {   "col1": "Winning solutions in the CAMDA Health Privacy Challenge",
                 "col2": "July 2025",
                 "col3": "See you at the CAMDA track at ISMB/ECCB 2025 to discuss our winning solutions in the CAMDA Health Privacy Challenge on generation of synthetic bulk and single cell RNA-seq data.",
