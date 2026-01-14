@@ -238,7 +238,14 @@
             }
         ],
         "PublicationList": [
-             {
+            {
+                "title": "Evaluation of an AI-Assisted Platform to Support Tuberculosis Care Delivery",
+                "venue": "20th World Congress on Medical and Health Informatics (MedInfo)",
+                "year" : "2025"
+                "authors": "S. Iribarren, W. Yuwen, D. Filienko, H. Jakher, M. Nizar, A. Vidrio, C. Kwani, D. Galdamez, J. Roberti, M. De Cock",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/40776117/"
+            },
+            {
                 "title": "Comparison of Single Cell RNA Synthetic Data Generators: a CAMDA Health Challenge Analysis",
                 "venue": "33rd Conference on Intelligent Systems for Molecular Biology & 24th European Conference on Computational Biology (ISMB/ECCB)",
                 "year": "2025",
