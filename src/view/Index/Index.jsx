@@ -30,25 +30,18 @@ import googlescholar from "../../assets/view/scholar_logo_64dp.png"
 import socialmedia1textIcon from "../../assets/view/linkedin.png"
 import socialmedia1textIcon2 from "../../assets/view/x.png"
 
-
-// import avatar1 from "../../assets/view/avatar1.png"
-// import avatar2 from "../../assets/view/avatar2.png"
-// import avatar3 from "../../assets/view/avatar3.png"
-// const avatar = [avatar1, avatar2, avatar3];
-
 const PIavatarModules = import.meta.glob('../../assets/view/PIavatar*.{png,jpg}', { eager: true });
 const PIavatarList = Object.values(PIavatarModules).map(module => module.default);
 
-
+// Import affiliated faculty avatars
+const affiliatedAvatarModules = import.meta.glob('../../assets/view/Iribarren*.{png,jpg}', { eager: true });
+const affiliatedAvatarList = Object.values(affiliatedAvatarModules).map(module => module.default);
 
 import "./Index.css"
 
-
 import data from "../../../public/data.json"
 
-
 console.log('data', data)
-
 
 function Index() {
     const navigate = useNavigate();
@@ -56,7 +49,7 @@ function Index() {
     const [isMain, setIsMain] = useState(false);
     const cssRef = useRef(null);
 
-    const [bgColor, setBgColor] = useState('rgba(255, 255, 255, 0)'); // 初始颜色为完全透明
+    const [bgColor, setBgColor] = useState('rgba(255, 255, 255, 0)');
     const [opacity1, setOpacity1] = useState(1);
 
     const titleSecondaryHTML = data.heroArea.subTitle.replace(/(aim-ahead|aimahead)/gi, match =>
@@ -75,7 +68,6 @@ function Index() {
         if (currentElement) {
             io.observe(currentElement);
         }
-
 
         const scrollreveal = new Scrollreveal()
         setTimeout(() => {
@@ -109,7 +101,6 @@ function Index() {
             const newColor = `rgba(0, 45, 114, ${opacity_bg})`;
             setBgColor(newColor);
 
-
             const fadeStart = 20;
             const fadeUntil = 100;
 
@@ -122,20 +113,12 @@ function Index() {
             setOpacity1(newOpacity);
         };
 
-
         window.addEventListener('scroll', handleScroll);
 
         return () => {
             if (currentElement) io.disconnect()
-
         }
-
-
-
-
-
     }, [])
-
 
     return (
         <div>
@@ -152,7 +135,6 @@ function Index() {
                     </div>
 
                     <div className="relative h-screen element">
-
                         <h1 className="w-11/12 lg:w-6/12 text-center absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                             <p style={{ fontFamily: 'quadon', fontWeight: 600, fontSize: '50px', opacity: opacity1 }}
                                 className="m-0 text-6xl font-bold fadeInSlow">
@@ -164,8 +146,6 @@ function Index() {
                                 <p className="text-blur"
                                     dangerouslySetInnerHTML={{ __html: titleSecondaryHTML }}>
                                 </p>
-
-                                { }
                             </div>
                         </h1>
                         <CSSTransition in={isMain} timeout={300} classNames="fade" unmountOnExit nodeRef={cssRef}>
@@ -185,8 +165,12 @@ function Index() {
                         <div className='relative mt-8 lg:flex'>
                             <div
                                 className='lg:w-8/12 left-content text-left lg:border-r lg:pr-20 box-border border-r-white border-opacity-20'>
+                                
+                                {/* Core Faculty Section */}
+                                <p style={{ fontFamily: 'gentona', fontWeight: 400, fontSize: '24px', color: '#F1C400' }} 
+                                   className='mb-4'>Core Faculty</p>
+                                
                                 {data.main.regionOne.left.PIList.length === 1 ? (
-                                    // 只有一个时，使用 flex 居中显示，每个子项保持 1/3 宽度
                                     <div className="flex justify-center shadow-primary p-4 bg-white text-black" id="bggg23">
                                         {data.main.regionOne.left.PIList.map((faculty, index) => (
                                             <div key={index} className="w-1/3">
@@ -209,7 +193,6 @@ function Index() {
                                         ))}
                                     </div>
                                 ) : data.main.regionOne.left.PIList.length === 2 ? (
-                                    // 只有两个时，使用 flex 并列显示，设置间距，每个子项同样保持 1/3 宽度
                                     <div className="flex justify-center gap-2 shadow-primary p-4 bg-white text-black" id="bggg23">
                                         {data.main.regionOne.left.PIList.map((faculty, index) => (
                                             <div key={index} className="w-1/3">
@@ -232,7 +215,6 @@ function Index() {
                                         ))}
                                     </div>
                                 ) : (
-                                    // 三个或以上时，使用 grid 布局显示
                                     <div className="grid grid-cols-3 gap-2 shadow-primary p-4 bg-white text-black" id="bggg23">
                                         {data.main.regionOne.left.PIList.slice(0, 3).map((faculty, index) => (
                                             <div key={index}>
@@ -255,6 +237,37 @@ function Index() {
                                         ))}
                                     </div>
                                 )}
+
+                                {/* Affiliated Members Section */}
+                                {data.main.AffiliatedFacultyList && data.main.AffiliatedFacultyList.length > 0 && (
+                                    <>
+                                        <p style={{ fontFamily: 'gentona', fontWeight: 400, fontSize: '24px', color: '#F1C400' }} 
+                                           className='mt-8 mb-4'>Affiliated Members</p>
+                                        
+                                        <div className="grid grid-cols-3 gap-2 shadow-primary p-4 bg-white text-black">
+                                            {data.main.AffiliatedFacultyList.map((faculty, index) => (
+                                                <div key={index}>
+                                                    {affiliatedAvatarList[index] && (
+                                                        <img
+                                                            src={affiliatedAvatarList[index]}
+                                                            alt={`Affiliated Avatar ${index + 1}`}
+                                                            className="w-full aspect-square object-cover rounded-sm overflow-hidden"
+                                                        />
+                                                    )}
+                                                    <p
+                                                        className="mt-1 hover:underline cursor-pointer text-center"
+                                                        onClick={() => navigate('/faculty')}
+                                                    >
+                                                        <strong>{faculty.name}</strong>
+                                                        <br />
+                                                        {faculty.title}
+                                                    </p>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </>
+                                )}
+
                                 <p
                                     style={{
                                         fontFamily: 'gentona',
@@ -264,14 +277,11 @@ function Index() {
                                     }} className='mt-8 right'>Introduction</p>
                                 <p style={{fontFamily: 'gentona', fontWeight: 400, fontSize: '36px'}}
                                    className='right font-bold mt-4 text-3xl'>{data.main.regionOne.left.text}</p>
-                                {/*hover:underline*/}
                                 <p style={{fontFamily: 'gentona', fontWeight: 200, fontSize: '18px'}}
                                    className='right mt-2 text-xl lg:text-base'>
                                     {data.main.regionOne.left.textSubsidiary}
                                 </p>
-
                             </div>
-
 
                             <div className='lg:w-4/12 lg:pl-12 right-content-line'>
                                 <div className=''>
@@ -287,7 +297,6 @@ function Index() {
                                         <p className='my-3 font-bold text-2xl'
                                             style={{ fontFamily: 'gentona', fontWeight: 700, fontSize: '30px' }}
                                             dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.one['text-1-2']}}>
-
                                         </p>
                                         <p style={{ fontFamily: 'gentona', fontWeight: 200, fontSize: '18px' }}
                                             dangerouslySetInnerHTML={{ __html: data.main.regionOne.right.one['text-1-3']}}>
@@ -396,15 +405,9 @@ function Index() {
                                         )}
                                     </div>
                                 </div>
-
-
-
-
                             </div>
-
                         </div>
                     </div>
-
                 </div>
 
                 <div className="relative bg-opacity-15 lg:pt-10 pb-12 pt-12" style={{ background: "#f3f3f3" }}>
@@ -419,8 +422,8 @@ function Index() {
                         <div className='mt-12 lg:flex gap-x-10'>
                             <div className='w-full lg:w-6/12 bg-white'>
                                 <div className='relative'>
-                                    <div className='relative h-56 overflow-hidden'> {/* Add fixed height */}
-                                        <img className='w-full object-cover' src={icon1Bg} /> {/* Add object-cover */}
+                                    <div className='relative h-56 overflow-hidden'>
+                                        <img className='w-full object-cover' src={icon1Bg} />
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
                                     <div onClick={_ => navigate('/news')}
@@ -443,8 +446,8 @@ function Index() {
                             </div>
                             <div className='w-full lg:w-6/12 bg-white'>
                                 <div className='relative'>
-                                    <div className='relative h-56 overflow-hidden'> {/* Add fixed height */}
-                                        <img className='w-full object-cover' src={icon2Bg} /> {/* Add object-cover */}
+                                    <div className='relative h-56 overflow-hidden'>
+                                        <img className='w-full object-cover' src={icon2Bg} />
                                         <div className='absolute top-0 w-full h-full bg-black bg-opacity-40'></div>
                                     </div>
                                     <div onClick={_ => navigate('/publications')}
@@ -465,9 +468,7 @@ function Index() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
 
                 <div className='p-6 lg:px-20 lg:py-20 relative overflow-hidden' style={{ background: "#4aa1d4" }}>
@@ -482,7 +483,6 @@ function Index() {
                                 className='lg:mb-0 mb-4 w-44 mt-4 btn bg-white p-3 flex justify-center items-center hover:bg-yellow-400 cursor-pointer transition-all'
                                 style={{ color: "#4aa1d4" }}>
                                 {data.main.regionThree.buttonText}
-
                                 <span className='ml-2 transition-all text-yellow-400'>→</span>
                             </div>
                         </div>
@@ -491,7 +491,6 @@ function Index() {
                         </div>
                     </div>
                 </div>
-
 
                 <div className='lg:px-20 lg:py-10 p-4 relative overflow-hidden' style={{ background: "white" }}>
                     <div className='text-center'>
@@ -504,17 +503,14 @@ function Index() {
                                 window.open(mailtoLink);
                             }} className='w-44 mx-auto mt-8 btn2 p-3 flex justify-center items-center cursor-pointer transition-all'
                             style={{ backgroundColor: "#4aa1d4" }}
-                            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#1e3a8a"} // blue-900
-                            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#4aa1d4"} // #4aa1d4
+                            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#1e3a8a"}
+                            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#4aa1d4"}
                         >
-
                             {data.main.regionFour.buttonText}
-
                             <span className='ml-2 transition-all text-white'>→</span>
                         </div>
                     </div>
                 </div>
-
             </main>
 
             <Footer />
