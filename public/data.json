@@ -242,8 +242,15 @@
                 "title": "Large Language Model-Powered Conversational Agent Delivering Problem-Solving Therapy (PST) for Family Caregivers: Enhancing Empathy and Therapeutic Alliance Using In-Context Learning",
                 "venue": "AMIA 2025 Annual Symposium",
                 "year": "2025",
-                "authors": "L. Wang, D. Carrington, D. Filienko, C. El Jazmi, S. (Jinchen) Xie, M. De Cock, S. Iribarren, W. Yuwen",
+                "authors": "L. Wang, D. Carrington, D. Filienko, C. El Jazmi, S. Xie, M. De Cock, S. Iribarren, W. Yuwen",
                 "url": "https://arxiv.org/pdf/2506.11376"
+            },
+            {
+                "title": "Evaluation of an AI-Assisted Platform to Support Tuberculosis Care Delivery",
+                "venue": "20th World Congress on Medical and Health Informatics (MedInfo)",
+                "year": "2025",
+                "authors": "S. Iribarren, W. Yuwen, D. Filienko, H. Jakher, M. Nizar, A. Vidrio, C. Kwani, D. Galdamez, J. Roberti, M. De Cock",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/40776117/"
             },
             {
                 "title": "Comparison of Single Cell RNA Synthetic Data Generators: a CAMDA Health Challenge Analysis",
