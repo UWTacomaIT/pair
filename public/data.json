@@ -110,6 +110,16 @@
             }
 
         ],
+        "AffiliatedFacultyList": [
+          {
+            "avatar": "../src/assets/view/Iribarren_Sarah_headshot.jpg",
+            "name": "Sarah Iribarren, Ph.D., RN",
+            "title": "Associate Professor",
+            "introduction": "Dr. Sarah Iribarren is an Associate Professor in the Department of Biobehavioral Nursing and Health Informatics at the University of Washington, Seattle where she co-directs the Clinical Informatics and Patient-Centered Technology program. Her research centers on designing, testing, and implementing digital health solutions that deliver support when and where patients need it most. She focuses on individuals with active tuberculosis (TB)—the leading global infectious disease killer despite effective treatment options. Dr. Iribarren's interdisciplinary work integrates nursing, clinical informatics, global health, mixed methods, and human-centered design to improve patient outcomes in resource-limited settings. She has led federally and state-funded studies as Principal Investigator, including projects to develop and evaluate Tuberculosis Treatment Support Tools. Her collaborations extend internationally, such as research in Ecuador on health service utilization among Venezuelan migrant women and food environment transitions in the Amazon region. She also directed a Washington State study examining how hospital and community factors influence patient outcomes. Active in professional leadership, Dr. Iribarren contributes to the American Medical Informatics Association and the Big Ten Nursing Informatics Working Group. Her career reflects a commitment to advancing responsible, technology-driven health solutions globally.",
+            "col4": "",
+            "col5": ""
+          }
+        ],
         "EventList": [
             {
                 "col1": "RHAIL Featured in NIH Data Science Director's Spotlight",
