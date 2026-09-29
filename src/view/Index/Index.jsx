@@ -33,9 +33,12 @@ import socialmedia1textIcon2 from "../../assets/view/x.png"
 const PIavatarModules = import.meta.glob('../../assets/view/PIavatar*.{png,jpg}', { eager: true });
 const PIavatarList = Object.values(PIavatarModules).map(module => module.default);
 
-// Import affiliated faculty avatars
-const affiliatedAvatarModules = import.meta.glob('../../assets/view/Iribarren*.{png,jpg}', { eager: true });
-const affiliatedAvatarList = Object.values(affiliatedAvatarModules).map(module => module.default);
+// Affiliated faculty avatars, looked up by the filename in each entry's "avatar" field
+const affiliatedAvatarModules = import.meta.glob('../../assets/view/*_headshot.{png,jpg}', { eager: true });
+const affiliatedAvatarByFile = Object.fromEntries(
+    Object.entries(affiliatedAvatarModules).map(([path, module]) => [path.split('/').pop(), module.default])
+);
+const getAffiliatedAvatar = (avatarPath) => affiliatedAvatarByFile[avatarPath.split('/').pop()];
 
 import "./Index.css"
 
@@ -247,9 +250,9 @@ function Index() {
                                         <div className="grid grid-cols-3 gap-2 shadow-primary p-4 bg-white text-black">
                                             {data.main.AffiliatedFacultyList.map((faculty, index) => (
                                                 <div key={index}>
-                                                    {affiliatedAvatarList[index] && (
+                                                    {getAffiliatedAvatar(faculty.avatar) && (
                                                         <img
-                                                            src={affiliatedAvatarList[index]}
+                                                            src={getAffiliatedAvatar(faculty.avatar)}
                                                             alt={`Affiliated Avatar ${index + 1}`}
                                                             className="w-full aspect-square object-cover rounded-sm overflow-hidden"
                                                         />

@@ -4,9 +4,12 @@ import { useNavigate } from "react-router-dom"
 const avatarModules = import.meta.glob('../../assets/view/avatar*.{png,jpg}', { eager: true });
 const avatarList = Object.values(avatarModules).map(module => module.default);
 
-// Add this new import for affiliated faculty
-const affiliatedAvatarModules = import.meta.glob('../../assets/view/Iribarren*.{png,jpg}', { eager: true });
-const affiliatedAvatarList = Object.values(affiliatedAvatarModules).map(module => module.default);
+// Affiliated faculty avatars, looked up by the filename in each entry's "avatar" field
+const affiliatedAvatarModules = import.meta.glob('../../assets/view/*_headshot.{png,jpg}', { eager: true });
+const affiliatedAvatarByFile = Object.fromEntries(
+    Object.entries(affiliatedAvatarModules).map(([path, module]) => [path.split('/').pop(), module.default])
+);
+const getAffiliatedAvatar = (avatarPath) => affiliatedAvatarByFile[avatarPath.split('/').pop()];
 
 import Header from "../../components/header/Index";
 import Footer from "../../components/footer/Index";
@@ -73,7 +76,7 @@ const index = () => {
                                 <div className='md:flex items-center'>
                                     <div className='mr-10'>
                                         <img className='w-60 rounded-md'
-                                             src={affiliatedAvatarList[index % affiliatedAvatarList.length]}
+                                             src={getAffiliatedAvatar(item.avatar)}
                                              alt={`Affiliated Avatar ${index+1}`} />
                                     </div>
                                     <div className='md:mt-0 mt-4 flex-1'>
