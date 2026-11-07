@@ -65,9 +65,7 @@
         },
         "regionThree": {
             "titlePrimary": "Program for AI Readiness (PAIR)",
-            "titleSecondary": "Our lab is sponsored by a PAIR award administered by AIM-AHEAD (NIH). Learn more about PAIR and how you can get involved!",
-            "buttonText": "Learn More",
-            "joinNowLink": "https://www.aim-ahead.net/program-for-artificial-intelligence-readiness/"
+            "titleSecondary": "Our lab was founded with support of a PAIR award administered by AIM-AHEAD (NIH)."
         },
         "regionFour": {
             "titlePrimary": "Contact Us",
